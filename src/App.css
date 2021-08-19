@@ -1,0 +1,118 @@
+
+
+
+/*  The Css file ..... */
+
+body {
+  background-color: rgb(25 22 22);
+}
+
+.container {
+  width: 70%;
+  height: 100vh;
+  margin-left: 15%;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:white;
+  /* border:1px solid red; */
+}
+
+.padd {
+
+  border : 1px solid white;
+  padding: 10px;
+
+}
+
+.padd-1 {
+  padding: 10px;
+
+}
+
+.search-field {
+  width: 87%;
+  height:30px;
+  font-size:16px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  outline:none;
+  text-indent: 18px;
+}
+
+.btn {
+  border-radius: 7px;
+  margin-left: 8px;
+  height:35px;
+  padding: 10px;
+}
+
+.movie {
+  border: 1px solid white;
+  padding:5px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.poster {
+  /* height: 320px; */
+  width: 30%;
+  border: 2px solid black;
+  overflow: hidden;
+  /* background-color:lightblue; */
+}
+
+.img-poster {
+  /* height: 320px; */
+  width: 100%;
+}
+.details {
+  
+  /* height : 320px; */
+  width: 70%;
+  margin-left: 2px;
+  background-color:darkslategrey;
+  border: 2px solid black;
+}
+
+.h1 {
+   text-align: center;
+   margin-top:0px;
+}
+
+.padd-1>p{
+  margin: 8px;
+} 
+
+.rating > p {
+  margin: 0;
+  padding-left:8px;
+}
+
+.rating{
+  padding-left:8px;
+  margin:0px;
+  display:flex;
+  
+}
+
+.rating> div {
+  margin-right: 20px;
+}
+
+.p1{
+  font-size:20px;
+  text-align:center;
+
+}
+ h4 {
+  margin:0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.error {
+  margin-top:10px;
+  border: 1px solid white;
+}
